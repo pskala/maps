@@ -1,0 +1,40 @@
+.map-inputs {
+    left:12px;
+    position: absolute;
+    z-index: 10;
+}
+#altitude, #userDronAltitude, #startDronAltitude {
+    width: 50px;
+}
+.custom-file-upload {
+    width: 96px;
+    cursor: pointer;
+}
+.custom-file-upload:hover {
+    background: #0ff;
+}
+#find {
+    width: 112px;
+}
+#map {
+    height:calc(100vh - 16px);
+}
+.first {top:13px;}
+.second {top:42px;}
+
+.custom-file-upload,
+.map-inputs input[type="text"] {
+    display: inline-block;
+    padding: 0 8px 1px;
+    text-align: center;
+    line-height: 24px;
+    background: #fff;
+    color: #6b7580;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.3);
+    outline: 0;
+}
+input[type="file"] {
+    display: none;
+}
